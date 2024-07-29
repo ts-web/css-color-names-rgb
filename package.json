@@ -1,0 +1,25 @@
+{
+  "name": "css-color-names-rgb",
+  "version": "0.0.0",
+  "description": "CSS color names in RGB format, from the spec.",
+  "license": "MIT",
+  "keywords": ["css", "colors", "rgb", "names", "named", "color names", "spec"],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ts-web/css-color-names-rgb.git"
+  },
+  "funding": "https://github.com/sponsors/ts-web",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  }
+}
