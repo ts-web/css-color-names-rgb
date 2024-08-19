@@ -31,10 +31,11 @@ import {
 
 
 ## Comparison with other libraries
+- [color-name](https://github.com/colorjs/color-name) doesn't have types included (DT only), and doesn't use `JSON.parse` to optimize load time.
 - [css-color-names](https://www.npmjs.com/package/css-color-names) doesn't have RGB values.
 - [html-colors](https://www.npmjs.com/package/html-colors) doesn't have RGB values.
 - [css-spec-colors](https://www.npmjs.com/package/css-spec-colors) returns RGB values in the form of a CSS `rgb()` string.
-- [named-css-colors](https://www.npmjs.com/package/named-css-colors) looks like a great package and it existed before this package (full disclosure: I did not know this beforehand). However, in contrast to this package: it calculates RGB values from hex, freezes objects, and includes some extra utils. If RGB values are all you need, and you want the most lightweight and performant option, you should use `css-color-names-rgb` instead.
+- [named-css-colors](https://www.npmjs.com/package/named-css-colors) calculates RGB values from hex, freezes objects, and includes extra utils.
 
 
 
