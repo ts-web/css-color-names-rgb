@@ -1,6 +1,6 @@
 {
   "name": "css-color-names-rgb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CSS color names in RGB format, from the spec.",
   "license": "MIT",
   "author": "https://github.com/ts-web/",
