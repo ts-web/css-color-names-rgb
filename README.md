@@ -1,3 +1,7 @@
+[![npm version](https://img.shields.io/npm/v/css-color-names-rgb.svg)](https://www.npmjs.com/package/css-color-names-rgb)
+[![Downloads](https://img.shields.io/npm/dm/css-color-names-rgb.svg)](https://www.npmjs.com/package/css-color-names-rgb)
+
+
 # css-color-names-rgb
 
 These are the CSS color names from [the CSS spec](https://drafts.csswg.org/css-color/#named-colors), as numeric RGB values.
