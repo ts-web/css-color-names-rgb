@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "CSS color names in RGB format, from the spec.",
   "license": "MIT",
+  "author": "https://github.com/ts-web/",
+  "funding": "https://github.com/sponsors/ts-web",
   "keywords": [
     "css",
     "colors",
@@ -12,22 +14,23 @@
     "color names",
     "spec"
   ],
-  "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ts-web/css-color-names-rgb.git"
   },
-  "funding": "https://github.com/sponsors/ts-web",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
-    "prepublishOnly": "pnpm run build"
+    "prepack": "pnpm run build"
   },
   "devDependencies": {
     "tsup": "^8.2.3",
     "typescript": "^5.5.4"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
