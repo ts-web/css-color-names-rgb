@@ -19,7 +19,7 @@
     "url": "git+https://github.com/ts-web/css-color-names-rgb.git"
   },
   "main": "dist/index.cjs",
-  "module": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "scripts": {
