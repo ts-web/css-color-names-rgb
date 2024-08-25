@@ -1,3 +1,6 @@
+# 1.0.4
+- No changes. First GH Actions publish.
+
 # 1.0.3
 - Edit readme (no functional changes).
 

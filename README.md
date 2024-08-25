@@ -1,5 +1,6 @@
 [![npm version](https://img.shields.io/npm/v/css-color-names-rgb.svg)](https://www.npmjs.com/package/css-color-names-rgb)
 [![Downloads](https://img.shields.io/npm/dm/css-color-names-rgb.svg)](https://www.npmjs.com/package/css-color-names-rgb)
+![Uses TypeScript](https://img.shields.io/badge/Uses-Typescript-294E80.svg)
 
 
 # css-color-names-rgb
